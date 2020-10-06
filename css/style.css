@@ -16,7 +16,7 @@ body {
 p {
   line-height: 1.9em;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a {
@@ -147,7 +147,7 @@ a:hover, a:active {
 }
 .page-top .nav a.current {
   color: #000000;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #000000;
 }
 .page-top .information {
