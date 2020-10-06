@@ -164,6 +164,7 @@ a::before {
     bottom: 0;
     right: 0;
     background: #4B9ECE;
+    border-radius: 8px;
 }
 a:hover::before {box-shadow: 0 5px 15px rgba(0, 0, 0, .3);}
 a::after {
