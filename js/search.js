@@ -55,7 +55,7 @@ $(function () {
                     datas.forEach(function (data) {
                         var isMatch = true;
                         var content_index = [];
-                        var data_title = data.title.trim().toLowerCase();
+                        var data_title = data.title.trim();
                         var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
                         var data_url = data.url;
                         var index_title = -1;
