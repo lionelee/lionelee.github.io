@@ -24,6 +24,7 @@ $(function () {
     });
     $('.blog-overlay').on('click', function () {
         $('#search_input').val('');
+        $('#search_result').empty();
         $('body').removeClass('search-on').removeClass('right-on');
     });
     initSearch('/search.xml', 'search_input', 'search_result');
