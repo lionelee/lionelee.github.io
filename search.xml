@@ -5,8 +5,8 @@
     
     <entry>
       <title>在github上发布packages</title>
-      <link href="2020/10/16/publish-packages-on-github/"/>
-      <url>2020/10/16/publish-packages-on-github/</url>
+      <link href="/2020/10/16/publish-packages-on-github/"/>
+      <url>/2020/10/16/publish-packages-on-github/</url>
       
         <content type="html"><![CDATA[<p>第一次在github上发布一个package: <a href="https://github.com/lionelee/gitbook-plugin-codeline/packages/449533">gitbook-plugin-codeline</a>，也遇到一些问题，记录一下。</p><p>点击github仓库主页的package发布连接，提示按以下三个步骤操作:<br><img src="instructions.png" alt=""></p><p>在这里的第2步登录时，用户名为github的用户名，而密码则为github的personal access token，<br>需要在github的设置中Developer settings → Personal access token中创建一个，注意勾选以下三项:<br><img src="generate_token.png" alt=""><br>然后使用生成的token登录npm。</p><p>使用<code>npm publish</code>时可能会遇到下面的报错<br><img src="error_404.png" alt=""></p><p>需要将<code>package.json</code>的<code>name</code>修改为<code>@username/packagename</code>即可发布成功</p>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>Bonjour</title>
-      <link href="2020/10/05/Bonjour/"/>
-      <url>2020/10/05/Bonjour/</url>
+      <link href="/2020/10/05/Bonjour/"/>
+      <url>/2020/10/05/Bonjour/</url>
       
         <content type="html"><![CDATA[<blockquote><p>我留不住所有的岁月，岁月却留住我</p></blockquote><p>鸽了一年的blog网站终于又重拾起，套用了Anatole主题的模板，只因一些地方不甚欢喜，<br>每欲改动却又拖延症犯起，几番纠结终于完成。</p><p>此番缘起也因为终于结束了23单身生活，另起人生新篇章。<br>To Min, love of my life.</p><p>今后的更新也随缘吧🤪</p>]]></content>
       
