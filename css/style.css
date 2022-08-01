@@ -401,7 +401,7 @@ a:hover, a:active {
 .search-result-list .search-keyword { background-color: #F7CACA; }
 
 /* post */
-.index-entry {margin: 30px}
+.index-entry {margin: 32px;margin-right: 64px;}
 .post-page {margin: 32px 0 64px 0;}
 .date {margin-right: 40px;}
 .post {background-color: #FFF;}
@@ -440,7 +440,7 @@ a:hover, a:active {
 .post .post-title a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #5f5f5f;
+  color: #4f4f4f;
 }
 .post .post-title a:hover {
   color: #4786D6;
