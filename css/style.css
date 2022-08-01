@@ -404,8 +404,17 @@ a:hover, a:active {
 .index-entry {margin: 30px}
 .post-page {margin: 64px 0;}
 .date {margin-right: 40px;}
-.post {
-  background-color: #FFF;
+.post {background-color: #FFF;}
+.post-pagination {
+  padding-bottom: 30px;
+  margin: 0 -4px;
+  display: block;
+}
+.post-pagination .pre {
+  float: left;
+}
+.post-pagination .next {
+  float: right;
 }
 .post .post-title h1 {
   font-size: 30px;
@@ -564,7 +573,6 @@ a:hover, a:active {
 }
 
 #disqus_thread {
-  margin: 30px;
   border-bottom: 1px solid #f2f2f2;
 }
 
