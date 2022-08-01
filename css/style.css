@@ -16,8 +16,8 @@ body {
 
 p {
   line-height: 1.9em;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 a {
@@ -401,11 +401,11 @@ a:hover, a:active {
 .search-result-list .search-keyword { background-color: #F7CACA; }
 
 /* post */
-.post-page {margin:8%;}
+.index-entry {margin: 30px}
+.post-page {margin: 64px 0;}
 .date {margin-right: 40px;}
 .post {
   background-color: #FFF;
-  margin: 30px;
 }
 .post .post-title h1 {
   font-size: 30px;
@@ -1026,39 +1026,6 @@ a.btn {
   }
 }
 
-/* index overlay */
-.overlay {
-  background:white;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index:999;
-}
-
-.index-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.index-wrapper header {
-  z-index: 1000;
-}
-#particles{
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-}
 .head {
   margin: 0 auto;
   width: 768px;

@@ -1,16 +1,4 @@
 $(function () {
-    $('.head-btn').mousedown(function (e) {
-        if (e.which == 1) {
-            document.cookie = "first=" + escape(1) + ";expires=''";
-            var $this = $(this);
-
-            $header.animate({
-                height: 0
-            }, 800, function () {
-                window.location.href = $this.attr('href');
-            });
-        }
-    });
     $('.search').on('click', function (e) {
         e.preventDefault();
         $('body').addClass('search-on');
