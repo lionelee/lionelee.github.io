@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  line-height: 1.9em;
+  line-height: 1.8em;
   font-weight: 500;
   font-size: 18px;
 }
@@ -443,26 +443,32 @@ a:hover, a:active {
   color: #4f4f4f;
 }
 .post .post-title a:hover {
-  color: #4786D6;
+  color: #3666A5;
   text-decoration: underline;
 }
 
 .post .post-content a {
   text-decoration: none;
-  letter-spacing: 1px;
-  color: #4786D6;
+  letter-spacing: 0px;
+  color: #3666A5;
 }
+/* .post .post-content a:hover {
+  color: #2A4F7F;
+  text-decoration: underline;
+} */
 .post .post-content a:hover {
-  color: #2F69B3;
+  background-color: #2A4F7F;
+  color: #fff;
 }
 .post .post-content h3 {
-  color: #5F5F5F;
+  color: #000;
   font-size: 22px;
   font-weight: 600;
 }
 .post .post-content h4 {
-  color: #5F5F5F;
-  font-size: 16px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
 }
 .post .post-footer {
   padding: 0 0 30px 0;
