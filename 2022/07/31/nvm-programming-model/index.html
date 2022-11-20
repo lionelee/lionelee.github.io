@@ -9,10 +9,10 @@
 <img src='memfence.png' width='100%' style='margin:auto;display:block;'/></p>
 <p>为了保证数据写入时的故障原子性 (failure atomicity) 以确保系统在断电或崩溃后能够恢复到一个一致性的状态，我们可以使用上述的缓存行刷新和内存栅栏指令，确保数据在断电前被刷新到持久域中。此外，上层的应用程序可以结合日志和写时复制等技术，在写入大量数据到 NVM 中时保证故障原子性，使得在系统崩溃后能够恢复到一个一致性状态。为了减轻在应用程序中手动添加缓存行刷新、内存栅栏和写入日志等这类低级别操作所带来的编程负担，Intel提供了持久性内存开发工具包 (Persistent Memory Development Kit, PMDK<sup>[<a href="#intel">4</a>]</sup>) 来为开发人员提供高层次的编程接口，方便程序员进行 NVM 编程。</p>
 <h3 id="参考文献">参考文献</h3>
-<p><span id='snia'>1. SNIA. Persistent Memory Programming Model. 2020. <a href="https://www.snia.org/educational-library/persistent-memory-programming-model-2020">https://www.snia.org/educational-library/persistent-memory-programming-model-2020</a></span><br>
-<span id='williams'>2. Dan Williams. “Device DAX” for persistent memory. 2016. <a href="https://lwn.net/Articles/686664">https://lwn.net/Articles/686664</a></span><br>
-<span id='scargal'>3. Steve Scargall. Programming Persistent Memory: A Comprehensive Guide for Developers. 2020. <a href="https://pmem.io/books">https://pmem.io/books</a></span><br>
-<span id='intel'>4. Intel. Persistent Memory Development Kit (PMDK). 2021. <a href="https://pmem.io/pmdk">https://pmem.io/pmdk</a></span></p>
+<p><span id='snia'>1. SNIA. “Persistent Memory Programming Model”. 2020. <a href="https://www.snia.org/educational-library/persistent-memory-programming-model-2020">https://www.snia.org/educational-library/persistent-memory-programming-model-2020</a></span><br>
+<span id='williams'>2. Dan Williams. “‘Device DAX’ for persistent memory”. 2016. <a href="https://lwn.net/Articles/686664">https://lwn.net/Articles/686664</a></span><br>
+<span id='scargal'>3. Steve Scargall. “Programming Persistent Memory: A Comprehensive Guide for Developers”. 2020. <a href="https://pmem.io/books">https://pmem.io/books</a></span><br>
+<span id='intel'>4. Intel. “Persistent Memory Development Kit (PMDK)”. 2021. <a href="https://pmem.io/pmdk">https://pmem.io/pmdk</a></span></p>
 <h3 id="License">License</h3>
 <p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License Logo"></a><br>
 This article is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.<br>Please contact me for commercial use.</p>
